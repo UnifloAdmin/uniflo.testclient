@@ -28,15 +28,9 @@ struct ContentView: View {
                 ToolbarItem(placement: .navigationBarTrailing) 
                 {
                     Button(action: {
-                        print("Hello, World! Clicked")
+                        print("Hello, Wordld! Clicked Button")
                     }) {
-                        Text("Hello, World!")
-                    }
-                    EditButton()
-                }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
+                        Text("Hello, World! Button")
                     }
                 }
             }
