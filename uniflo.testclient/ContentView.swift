@@ -50,7 +50,7 @@ struct ContentView: View {
                 
                 // Features Section
                 VStack(alignment: .leading, spacing: 20) {
-                    FeatureRow(icon: "checkmark.circle.fill", title: "Ready to Go", description: "Your app is configured and ready")
+                    FeatureRow(icon: "checkmark.circle.fill", title: "Ready  Go", description: "Your app is configured and ready")
                     FeatureRow(icon: "bolt.circle.fill", title: "Fast & Reliable", description: "Built with Swift & SwiftUI")
                     FeatureRow(icon: "shield.checkered", title: "Secure", description: "Privacy-focused architecture")
                 }
